@@ -44,4 +44,4 @@ Participants must build an artificial player able to solve “La Ghigliottina”
 * Lucia Siciliani, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, <lucia.siciliani@uniba.it> 
 
 ### Contacts
-If you have any questions, please contact us: <nlp4fun@gmail.com>.
+If you have any questions, please contact us: <nlp4fun.evalita@gmail.com>.
