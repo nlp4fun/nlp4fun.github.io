@@ -1,19 +1,19 @@
 ### News
 
 ### Menu
-*[Task Description](###Task-Description)
+*[Task Description](###task-description)
 
-*[Data Description](###Data-Description)
+*[Data Description](###data-description)
 
-*[Data Format](###Data-Format)
+*[Data Format](###data-format)
 
-*[How to Participate](###How-to-Participate)
+*[How to Participate](###how-to-participate)
 
-*[Important Dates](###Important-Dates)
+*[Important Dates](###important-dates)
 
-*[Organizers](###Organizers)
+*[Organizers](###organizers)
 
-*[Contacts](###Contacts)
+*[Contacts](###contacts)
 
 ### Task Description
 Language games draw their challenge and excitement from the richness and ambiguity of natural language, and therefore have attracted the attention of researchers in the fields of Artificial Intelligence and Natural Language Processing.
