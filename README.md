@@ -38,10 +38,10 @@ Participants must build an artificial player able to solve “La Ghigliottina”
 ---
 
 ### Organizers
-* Pierpaolo Basile, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, pierpaolo.basile@uniba.it 
-* Marco de Gemmis, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, marco.degemmis@uniba.it 
-* Giovanni Semeraro, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, giovanni.semeraro@uniba.it 
-* Lucia Siciliani, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, lucia.siciliani@uniba.it 
+* Pierpaolo Basile, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, <pierpaolo.basile@uniba.it> 
+* Marco de Gemmis, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, <marco.degemmis@uniba.it> 
+* Giovanni Semeraro, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, <giovanni.semeraro@uniba.it> 
+* Lucia Siciliani, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, <lucia.siciliani@uniba.it> 
 
 ### Contacts
-If you have any questions, please contact us: nlp4fun@gmail.com.
+If you have any questions, please contact us: <nlp4fun@gmail.com>.
