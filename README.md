@@ -19,6 +19,29 @@ Participants must build an artificial player able to solve “La Ghigliottina”
 ### Data Description
 
 ### Data Format
+We will provide a set of both training and testing games in the XML format:
+```xml
+<games>
+  <game>
+        <id>1008</id>
+        <clue>uomo</clue>
+        <clue>cane</clue>
+        <clue>musica</clue>
+        <clue>casa</clue>
+        <clue>pietra</clue>
+        <solution>chiesa</solution>
+  </game>
+  …
+</games>
+```
+
+The XML file consists of a root element games which contains several game elements. Each game has five clue elements and one solution.
+The games have been collected by the organizers from both the TV show and the board game. The current dataset contains 422 games. We will provide 5 games as trial data, and 290 and 127 games as training and testing, respectively. The participants can integrate any knowledge resources in their systems except further games.
+Participants must provide for each game a ranked list of maximum 100 tentative solutions. As evaluation measure, we adopt a weighted version of Mean Reciprocal Rank (MRR). Since time is a critical factor in this game, the Reciprocal Rank will be weighted by a function which takes into account the time. In the TV game, the player has one minute to provide the solution. Taking into account these factors, the final evaluation measure is:
+
+<img src="https://latex.codecogs.com/gif.latex?\frac{1}{\left&space;|&space;G&space;\right&space;|}&space;\sum_{g&space;\in&space;G}&space;\frac{1}{r_{g}}&space;max&space;\left&space;(&space;\frac{1}{t_{g}},\frac{1}{10}&space;\right&space;)" title="\frac{1}{\left | G \right |} \sum_{g \in G} \frac{1}{r_{g}} max \left ( \frac{1}{t_{g}},\frac{1}{10} \right )" />
+
+where G is the set of games and rg is the rank of the solution, while tg denotes the minutes taken by the system to produce the tentative solutions. Systems that take more than 10 minutes are equally penalized.
 
 ### How to Participate
 
