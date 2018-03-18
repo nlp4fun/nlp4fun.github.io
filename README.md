@@ -74,10 +74,10 @@ Further details will be made available in the near future.
 ---
 
 ### Organizers
-* Pierpaolo Basile, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, <pierpaolo.basile@uniba.it>
-* Marco de Gemmis, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, <marco.degemmis@uniba.it>
-* Giovanni Semeraro, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, <giovanni.semeraro@uniba.it>
-* Lucia Siciliani, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro, <lucia.siciliani@uniba.it>
+* Pierpaolo Basile, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro
+* Marco de Gemmis, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro
+* Giovanni Semeraro, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro
+* Lucia Siciliani, Dipartimento di Informatica, Università degli Studi di Bari Aldo Moro
 
 ### Contacts
 If you have any questions, please contact us: <nlp4fun.evalita@gmail.com>.
