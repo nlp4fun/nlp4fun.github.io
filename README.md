@@ -54,9 +54,9 @@ Online registration is open: [registration form](https://docs.google.com/forms/d
 *(tentative)*
 
 * **28th May 2018:** development data available to participants
-* **3rd September 2018:** test data available, registration closes
-* **3rd - 23rd September 2018:** evaluation window (system results due to task organizers)
-* **30th September 2018:** assessment returned to participants
+* **10th September 2018:** test data available, registration closes
+* **10th - 16th September 2018:** evaluation window (system results due to task organizers)
+* **24th September 2018:** assessment returned to participants
 * **5th November 2018 (tentative):** technical reports due to organizers (camera ready)
 * **12th or 13th December 2018:** final workshop
 
