@@ -1,5 +1,7 @@
 ### News
 
+* 3rd April 2018: Registration are now open! Fill-in the [form](https://docs.google.com/forms/d/e/1FAIpQLSdAKar1gv-Spoc3cPGYyzgBG5-fETVWvKfvSO1_v-Wc6RNfjQ/viewform).
+
 ### Menu
 * [Task Description](#task-description)
 * [Data Description](#data-description)
@@ -46,7 +48,7 @@ where *G* is the set of games and *r<sub>g</sub>* is the rank of the solution, w
 
 ### How to Participate
 
-Online registration will open on **26th March 2018**. Stay tuned!
+Online registration is open: [registration form](https://docs.google.com/forms/d/e/1FAIpQLSdAKar1gv-Spoc3cPGYyzgBG5-fETVWvKfvSO1_v-Wc6RNfjQ/viewform).
 
 ### Important Dates
 *(tentative)*
