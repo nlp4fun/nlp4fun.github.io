@@ -44,7 +44,7 @@ Participants must provide for each game a ranked list of maximum 100 tentative s
 
 > id solution score rank time
 
-Values must be saparated by a whitespace character and time must be reported in milliseconds. For example:
+Values must be separated by a whitespace character and time must be reported in milliseconds. For example:
 
 > 3fc953bd-bd48-4fb9-a86c-bd979c1b5c3f porta 0.978 1 3459<br>
 3fc953bd-bd48-4fb9-a86c-bd979c1b5c3f chiesa 0.932 2 3251<br>
