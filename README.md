@@ -25,7 +25,7 @@ We will provide a set of both training and testing games in the XML format:
 ```xml
 <games>
   <game>
-        <id>1008</id>
+        <id>3fc953bd-bd48-4fb9-a86c-bd979c1b5c3f</id>
         <clue>uomo</clue>
         <clue>cane</clue>
         <clue>musica</clue>
@@ -37,10 +37,22 @@ We will provide a set of both training and testing games in the XML format:
 </games>
 ```
 
-The XML file consists of a root element games which contains several game elements. Each game has five clue elements and one solution.
-The games have been collected by the organizers from both the TV show and the board game. The current dataset contains 422 games. We will provide 5 games as trial data, and 290 and 127 games as training and testing, respectively. The participants can integrate any knowledge resources in their systems except further games.
+The XML file consists of a root element *games* which contains several *game* elements. Each game has five *clue* elements and one *solution*.
+The games have been collected by the organizers from both the TV show and the board game. The current dataset contains 421 games. We will provide 316 and 105 games as training and testing, respectively. The participants can integrate any knowledge resources in their systems except further games.
 
-Participants must provide for each game a ranked list of maximum 100 tentative solutions. As evaluation measure, we adopt a weighted version of Mean Reciprocal Rank (MRR). Since time is a critical factor in this game, the Reciprocal Rank will be weighted by a function which takes into account the time. In the TV game, the player has one minute to provide the solution. Taking into account these factors, the final evaluation measure is:
+Participants must provide for each game a ranked list of maximum 100 tentative solutions. Results must be provided in a text plain file according to the following format:
+
+> id solution score rank time
+
+Values must be saparated by a whitespace character and time must be reported in milliseconds. For example:
+
+> 3fc953bd-bd48-4fb9-a86c-bd979c1b5c3f porta 0.978 1 3459<br>
+3fc953bd-bd48-4fb9-a86c-bd979c1b5c3f chiesa 0.932 2 3251<br>
+3fc953bd-bd48-4fb9-a86c-bd979c1b5c3f santo 0.897 3 4321<br>
+...<br>
+3fc953bd-bd48-4fb9-a86c-bd979c1b5c3f carta 0.321 100 2343<br>
+
+As evaluation measure, we adopt a weighted version of Mean Reciprocal Rank (MRR). Since time is a critical factor in this game, the Reciprocal Rank will be weighted by a function which takes into account the time. In the TV game, the player has one minute to provide the solution. Taking into account these factors, the final evaluation measure is:
 
 <img src="https://latex.codecogs.com/gif.latex?\frac{1}{\left&space;|&space;G&space;\right&space;|}&space;\sum_{g&space;\in&space;G}&space;\frac{1}{r_{g}}&space;max&space;\left&space;(&space;\frac{1}{t_{g}},\frac{1}{10}&space;\right&space;)" title="\frac{1}{\left | G \right |} \sum_{g \in G} \frac{1}{r_{g}} max \left ( \frac{1}{t_{g}},\frac{1}{10} \right )" />
 
