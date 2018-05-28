@@ -1,6 +1,8 @@
 ### News
 
-* 3rd April 2018: Registration are now open! Fill-in the [form](https://docs.google.com/forms/d/e/1FAIpQLSdAKar1gv-Spoc3cPGYyzgBG5-fETVWvKfvSO1_v-Wc6RNfjQ/viewform).
+* **28th May 2018:** The **development dataset** is now available for [download](https://github.com/nlp4fun/nlp4fun.github.io/blob/master/data/training/nlp4fun_train_v1.xml).
+* **28th May 2018:** [Task guidelines](https://github.com/nlp4fun/nlp4fun.github.io/blob/master/guidelines/nlp4fun-evalita-2018-guidelines-v100.pdf) are now available.
+* **3rd April 2018:** Registration are now open! Fill-in the [form](https://docs.google.com/forms/d/e/1FAIpQLSdAKar1gv-Spoc3cPGYyzgBG5-fETVWvKfvSO1_v-Wc6RNfjQ/viewform).
 
 ### Menu
 * [Task Description](#task-description)
