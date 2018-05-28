@@ -40,7 +40,7 @@ We will provide a set of both training and testing games in the XML format:
 ```
 
 The XML file consists of a root element *games* which contains several *game* elements. Each game has five *clue* elements and one *solution*.
-The games have been collected by the organizers from both the TV show and the board game. The current dataset contains 421 games. We will provide 316 and 105 games as training and testing, respectively. The participants can integrate any knowledge resources in their systems except further games.
+The current dataset contains 421 games. We will provide 316 and 105 games as training and testing, respectively. The participants can integrate any knowledge resources in their systems except further games.
 
 Participants must provide for each game a ranked list of maximum 100 tentative solutions. Results must be provided in a text plain file according to the following format:
 
