@@ -1,7 +1,8 @@
 ### News
 
-* **28th May 2018:** The **development dataset** is now available for [download](https://github.com/nlp4fun/nlp4fun.github.io/blob/master/data/training/nlp4fun_train_v1.xml).
-* **28th May 2018:** [Task guidelines](https://github.com/nlp4fun/nlp4fun.github.io/blob/master/guidelines/nlp4fun-evalita-2018-guidelines-v100.pdf) are now available.
+* **New version of both [training data](https://github.com/nlp4fun/nlp4fun.github.io/blob/master/data/training/nlp4fun_train_v2.xml) and [guidelines](https://github.com/nlp4fun/nlp4fun.github.io/blob/master/guidelines/nlp4fun-evalita-2018-guidelines-v200.pdf) are available**
+* **28th May 2018:** The **development dataset** is now available for [download](https://github.com/nlp4fun/nlp4fun.github.io/blob/master/data/training/nlp4fun_train_v2.xml).
+* **28th May 2018:** [Task guidelines](https://github.com/nlp4fun/nlp4fun.github.io/blob/master/guidelines/nlp4fun-evalita-2018-guidelines-v200.pdf) are now available.
 * **3rd April 2018:** Registration are now open! Fill-in the [form](https://docs.google.com/forms/d/e/1FAIpQLSdAKar1gv-Spoc3cPGYyzgBG5-fETVWvKfvSO1_v-Wc6RNfjQ/viewform).
 
 ### Menu
@@ -34,12 +35,17 @@ We will provide a set of both training and testing games in the XML format:
         <clue>casa</clue>
         <clue>pietra</clue>
         <solution>chiesa</solution>
+        <type>TV</type>
   </game>
   …
 </games>
 ```
 
 The XML file consists of a root element *games* which contains several *game* elements. Each game has five *clue* elements and one *solution*.
+Moreover, the element *type* reports the type of the game. The dataset has two kinds of game:
+* **TV**: games taken from the TV show;
+* **boardgame**: games taken from the boardgame.
+
 The current dataset contains 421 games. We will provide 316 and 105 games as training and testing, respectively. The participants can integrate any knowledge resources in their systems except further games.
 
 Participants must provide for each game a ranked list of maximum 100 tentative solutions. Results must be provided in a text plain file according to the following format:
@@ -59,6 +65,8 @@ As evaluation measure, we adopt a weighted version of Mean Reciprocal Rank (MRR)
 <img src="https://latex.codecogs.com/gif.latex?\frac{1}{\left&space;|&space;G&space;\right&space;|}&space;\sum_{g&space;\in&space;G}&space;\frac{1}{r_{g}}&space;max&space;\left&space;(&space;\frac{1}{t_{g}},\frac{1}{10}&space;\right&space;)" title="\frac{1}{\left | G \right |} \sum_{g \in G} \frac{1}{r_{g}} max \left ( \frac{1}{t_{g}},\frac{1}{10} \right )" />
 
 where *G* is the set of games and *r<sub>g</sub>* is the rank of the solution, while *t<sub>g</sub>* denotes the minutes taken by the system to produce the tentative solutions. Systems that take more than 10 minutes are equally penalized.
+
+We plan to provide a separate ranking for TV and boardgame, but the final ranking will take into account the whole test-set.
 
 ### How to Participate
 
